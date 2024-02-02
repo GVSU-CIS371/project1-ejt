@@ -44,8 +44,8 @@ main{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 5px;
+  justify-content: space-evenly;
+  gap: 10px;
   padding: 10px;
 }
 
@@ -56,6 +56,8 @@ main{
   border-color: black;
   border-width: 1px;
   padding: 5px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .store-item > img{
