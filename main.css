@@ -50,6 +50,9 @@ main{
 }
 
 .store-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: auto;
   color: white;
   width: 23%;
@@ -61,7 +64,7 @@ main{
   box-shadow: 5px 5px 5px black;
 }
 
-.store-item > img{
+ img{
   height: auto;
   width: 50%;
   display: block;
@@ -70,7 +73,7 @@ main{
   border-radius: 25px;
 }
 
-.store-item > span{
+ #info2 > span{
   margin: 10px;
 }
 
